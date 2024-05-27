@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link rel="stylesheet" href="to do list.css">
+</head>
+<body>
+
+<h1>To-Do List</h1>
+
+
+<input type="text" id="taskInput" placeholder="Enter task">
+<button class="cssbuttons-io-button" onclick="addTask()" >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg>
+    <span>Add</span>
+  </button>
+<ul id="taskList">
+<!-- Tasks will be added dynamically here -->
+</ul>
+
+<script src="main.js"></script>
+
+</body>
+</html>
